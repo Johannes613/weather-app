@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+}
+section.app{
+    width: 90vw;
+    background: linear-gradient(to top,#a2a1a1,#00cffe);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 15px;
+    gap: 28px;
+    color: #fff;
+    max-width: 450px;
+    border-radius: 15px;
+}
+div.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.search input{
+    width: 70%;
+    background-color: #ebfffc;
+    color: #555;
+    margin-right: 15px;
+    padding: 10px 25px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    height: 50px;
+}
+div.search i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ebfffc;
+    color: #555;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+section.app img.weather-img{
+    width: 40%;
+    
+}
+section.app div.humidity-wind{
+    display: flex;
+    justify-content: center ;
+}
+section.app div.humidity-wind img{
+    width: 35px;
+    height: 30px;
+}
+div.humidity, div.wind-speed{
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+div.temp-city{
+    text-align: center;
+}
+h1.temp{
+    font-weight: 400;
+
+}
+h2.city-name{
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+p.humidity-value, p.wind-speed-value{
+    font-size: 25px;
+
+}
+#hum, #win{
+    margin-left: 10px;
+}
